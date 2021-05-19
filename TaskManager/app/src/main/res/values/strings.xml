@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Határidő Napló</string>
+    <string name="action_settings">Delete All</string>
+    <string name="cat_All">All</string>
+    <string name="cat_Gro">All</string>
+    <string name="cat_Work">All</string>
+    <string name="cat_Hobby">All</string>
+    <string name="cat_Other">All</string>
+    <string name="cat_Edu">All</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="bought">Done</string>
+    <string name="new_item">New Task</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="category">Category</string>
+    <string name="priority">Priority</string>
+    <string name="already_done">Already done</string>
+    <string name="deadline">Select Deadline</string>
+
+    <string-array name="category_items">
+        <item>Other</item>
+        <item>Education</item>
+        <item>Work</item>
+        <item>Groceries</item>
+        <item>Hobby</item>
+    </string-array>
+
+    <string-array name="priority_items">
+        <item>High Priority</item>
+        <item>Medium Priority</item>
+        <item>Low Priority</item>
+        <item>No Priority</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hu.bme.aut.shoppinglist.MainActivity">
+    <item
+        android:id="@+id/delete_all"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item android:id="@+id/cat_All"
+        android:title="All" />
+    <item android:id="@+id/cat_Edu"
+        android:title="Education" />
+    <item android:id="@+id/cat_Work"
+        android:title="Work" />
+    <item android:id="@+id/cat_Hobby"
+        android:title="Hobby" />
+    <item android:id="@+id/cat_Other"
+        android:title="Other" />
+    <item android:id="@+id/cat_Gro"
+        android:title="Groceries" />
+</menu>

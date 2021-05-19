@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".ItemSpecActivity"
+    android:id="@+id/ItemPage">
+
+    <ImageView
+        android:id="@+id/ItemIconImageView"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        tools:src="@drawable/Groceries" />
+
+    <TextView
+        android:id="@+id/ItemNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Apple"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/ItemDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        tools:text="Date" />
+
+
+    <TextView
+        android:id="@+id/ItemPriorityTextView"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        tools:text="priority" />
+
+    <TextView
+        android:id="@+id/ItemDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:textAlignment="center"
+        tools:text="datokat lehet egyesével törölni, valamint lehet az összes elemet" />
+
+
+
+    <TextView
+        android:id="@+id/ItemIsDoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        tools:text="done" />
+
+
+
+</LinearLayout>
